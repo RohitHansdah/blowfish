@@ -391,7 +391,7 @@ def ofbencrypt(plaintext):
     	plaintext = r<<16
     return ciphertext
 
-#encryption in ofb mode
+#dencryption in ofb mode
 
 def ofbdecrypt(ciphertext):
     plaintext = 0
